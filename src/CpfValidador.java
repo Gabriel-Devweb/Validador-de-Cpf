@@ -2,10 +2,6 @@ package src;
 import src.Cpf;
 
 public class CpfValidador {
-  public boolean validar(String cpfLimpo) {
-   return true;
- }
-
  private int calcularPrimeiroDigito(String cpf) {
    int soma = 0;
    int peso = 10;

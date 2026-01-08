@@ -2,6 +2,7 @@ package src;
 import app.App.java;
 
 public class Cpf {
+  private String cpfLimpo;
   public void cpfLimpar(String cpf) {
   String cpfLimpo = cpf.replaceAll("[^0-9]", "");
   }
@@ -18,4 +19,8 @@ public class Cpf {
     }
     return true; 
 }
+
+  public String getCpfLimpo() {
+    return cpflimpo;
+  }
   }
